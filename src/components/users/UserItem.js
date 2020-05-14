@@ -9,7 +9,7 @@ class UserItem extends Component {
   };
 
   render() {
-    const { login, avatar_url, html_url } = this.state;
+    const { login, avatar_url, html_url } = this.props.user;
     return (
       <div className=" crad text-center">
         <img
